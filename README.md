@@ -1,5 +1,7 @@
 # capacitor-foreground-websocket
 
+
+
 **capacitor-foreground-websocket** is a Capacitor plugin that provides a persistent WebSocket client running as a foreground service. It works on both Android and iOS, ensuring the WebSocket connection remains active regardless of window changes, backgrounding, or other apps being opened. This plugin is designed to integrate seamlessly with Quasar Framework applications.
 
 ## Features
@@ -12,6 +14,32 @@
   - **Android:** Uses WakeLock and Intent to bring the MainActivity to the foreground.
   - **iOS:** Uses PushKit (VoIP push) to wake the app in the background.
 - **Cross-Platform Compatibility:** Works on both Android and iOS.
+
+
+### Project Structure
+```css
+ capacitor-foreground-websocket/
+├── package.json
+├── tsconfig.json
+├── README.md
+├── src/
+│   ├── definitions.ts
+│   ├── index.ts
+│   └── web.ts
+├── android/
+│   └── src/
+│         └── main/
+│              └── java/
+│                   └── com/
+│                        └── example/
+│                             └── capacitorforegroundwebsocket/
+│                                  ├── CapacitorForegroundWebsocketPlugin.kt
+│                                  └── ForegroundWebSocketService.kt
+└── ios/
+└── Plugin/
+└── CapacitorForegroundWebsocketPlugin.swift
+````
+
 
 ## Installation
 

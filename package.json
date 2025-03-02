@@ -1,0 +1,23 @@
+{
+    "name": "capacitor-foreground-websocket",
+    "version": "1.0.0",
+    "description": "Capacitor plugin for a persistent foreground WebSocket client with wake-up mechanisms",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc"
+    },
+    "keywords": [
+      "capacitor",
+      "foreground",
+      "websocket",
+      "plugin"
+    ],
+    "author": "Nevzat Aksoy",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "typescript": "^4.0.0",
+      "@capacitor/core": "^4.0.0"
+    }
+  }
+  
