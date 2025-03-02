@@ -1,6 +1,6 @@
 {
   "name": "capacitor-foreground-websocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capacitor plugin for a persistent foreground WebSocket client with wake-up mechanisms",
   "main": "dist/index.js",
   "repository": {
