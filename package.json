@@ -1,23 +1,32 @@
 {
-    "name": "capacitor-foreground-websocket",
-    "version": "1.0.0",
-    "description": "Capacitor plugin for a persistent foreground WebSocket client with wake-up mechanisms",
-    "main": "dist/index.js",
-    "scripts": {
-      "build": "tsc"
-    },
-    "keywords": [
-      "capacitor",
-      "foreground",
-      "websocket",
-      "plugin"
-    ],
-    "author": "Nevzat Aksoy",
-    "license": "MIT",
-    "dependencies": {},
-    "devDependencies": {
-      "typescript": "^4.0.0",
-      "@capacitor/core": "^4.0.0"
-    }
+  "name": "capacitor-foreground-websocket",
+  "version": "1.0.0",
+  "description": "Capacitor plugin for a persistent foreground WebSocket client with wake-up mechanisms",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nevzataksoy/capacitor-foreground-websocket.git"
+  },
+  "homepage": "https://github.com/nevzataksoy/capacitor-foreground-websocket#readme",
+  "bugs": {
+    "url": "https://github.com/nevzataksoy/capacitor-foreground-websocket/issues"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "capacitor",
+    "foreground",
+    "websocket",
+    "plugin",
+    "quasar",
+    "framework"
+  ],
+  "author": "Nevzat Aksoy",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@capacitor/core": "^4.0.0"
   }
-  
+}
